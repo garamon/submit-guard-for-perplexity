@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Submit Guard for Perplexity",
+  "description": "Prevents unintended form submissions",
+  "version": "1.0.0",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://www.perplexity.ai/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.perplexity.ai/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon/icon16.png",
+    "32": "icon/icon32.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  }
+}

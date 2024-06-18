@@ -1,0 +1,12 @@
+{
+  "name": "submit-guard-for-perplexity",
+  "version": "0.0.0",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "zip": "zip -r bundle.zip . -x \"*.git*\""
+  },
+  "keywords": [],
+  "author": "Koichi Noto",
+  "license": "MIT"
+}
